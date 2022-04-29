@@ -1,9 +1,9 @@
-import VueNiceValidate from "./VueNiceValidate.js";
+import VueNiceAccordion from "./VueNiceAccordion.js";
 
 function install(Vue) {
   if (install.installed) return;
   install.installed = true;
-  Vue.mixin(VueNiceValidate);
+  Vue.use(VueNiceAccordion);
 }
 
 const plugin = {
@@ -20,6 +20,6 @@ if (GlobalVue) {
   GlobalVue.use(plugin);
 }
 
-VueNiceValidate.install = install;
+VueNiceAccordion.install = install;
 
-export default VueNiceValidate;
+export default VueNiceAccordion;
