@@ -1,4 +1,4 @@
-import VueNiceAccordion from "./VueNiceAccordion.js";
+import VueNiceAccordion from "./VueNiceAccordion.vue";
 
 function install(Vue) {
   if (install.installed) return;

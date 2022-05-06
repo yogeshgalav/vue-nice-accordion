@@ -30,7 +30,6 @@
   </div>
 </template>
 <style scoped lang="scss">
-    @import 'resources/sass/_variables.scss';
     .card {
       padding:0 !important;
     }
