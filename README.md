@@ -6,3 +6,6 @@
 npm install vue-nice-accordion
 ```
 <img src="progress-0.png" alt="J" width="200"/>
+
+
+<img src="progress.gif" width="40" height="40" />
