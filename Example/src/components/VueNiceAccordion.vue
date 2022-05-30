@@ -33,15 +33,12 @@
     .card {
       padding:0 !important;
     }
-    .font-size-24 {
-    font-size: 24px;
-}
     .tab__header {
         background: #fbfbfb;
     }
 
     .tab__header a {
-        // color: $text !important;
+        color: $text !important;
         text-decoration: none;
         display: flex !important;
         line-height: 38px;
