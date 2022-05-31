@@ -1,3 +1,13 @@
+<!-- <head>
+<link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+    </head> -->
+
+
 <template>
   <div class="card">
     <div class="card-header p-0">
@@ -30,6 +40,7 @@
   </div>
 </template>
 <style scoped lang="scss">
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css";
     .card {
       padding:0 !important;
     }
@@ -71,6 +82,9 @@
         border-left: 1px solid #ccc !important;
         padding: 15px 20px 15px 20px;
     }
+    
+
+    
 </style>
 <script>
 export default {
