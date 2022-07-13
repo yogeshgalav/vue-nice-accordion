@@ -1,5 +1,7 @@
 <template>
+
   <div id="app">
+    <p>Accordion is used to toggle between showing or hiding the content </p>
     <VueNiceAccordion
     class="mb-2"
         title="VueNiceAccordion"
